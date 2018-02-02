@@ -1,0 +1,64 @@
+!===========================
+!          Snazzy 
+!===========================
+URxvt*saveline:         15000
+URxvt*termName:         rxvt-256color
+URxvt*iso14755:         false
+URxvt*depth:            32
+URxvt*cursorColor2:     Magenta
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  false
+URxvt*internalBorder:   0
+URxvt*externalBorder:   0
+URxvt.geometry: 		92x16
+URxvt.internalBorder:	16
+
+URxvt*background:   #1e1f28
+URxvt*foreground:   #ebece6
+URxvt*cursorColor:   #e4e4e4
+URxvt*color0:   #000
+URxvt*color1:   #fb4245
+URxvt*color2:   #50fa7b
+URxvt*color3:   #f0fa8b
+URxvt*color4:   #49b9fe
+URxvt*color5:   #fb4cb3
+URxvt*color6:   #8be9fd
+URxvt*color7:   #ededec
+URxvt*color8:   #555555
+URxvt*color9:   #fb4245
+URxvt*color10:   #50fa7b
+URxvt*color11:   #f0fa8b
+URxvt*color12:   #49b9fe
+URxvt*color13:   #fb4cb3
+URxvt*color14:   #8be9fd
+URxvt*color15:   #ededec
+
+
+! ========================
+!        Couleurs
+! ========================
+*.background:       #5a000000
+*.background-alt:   #88000000
+*.foreground:       #eee
+*.foreground-alt:   #ccc
+*.underline:        #ddd
+*.primary:          #ffb52a
+*.secondary:        #e60053
+*.alert:            #bd2c40
+*.accent:           #81a1c1
+
+! =================
+!       Xft
+! =================
+Xft.dpi:          	    96
+Xft.antialias:     	    true
+Xft.rgba:			    subpixel
+Xft.hinting:       	    true
+Xft.hintstyle:		    hintslight
+! Xft.lcdfilter:	    lcddefault
+
+XTerm*background: #2b2b2b
+XTerm*foreground: #e7e7e7
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
