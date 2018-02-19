@@ -6,7 +6,7 @@ Ajouter le dossier config dans votre $HOME/.config/ selon leur emplacement corre
 
 ### Installer les Packages
 #### sur Arch-linux (le gestionnaire de package de decoffrage AUR) ou avefc votre terminal :
-sudo pacman -S nom_du_package
+sudo pacman -S nom_du_package <br>
 sudo apt install nom_du_package
   * i3-gaps
   * polybar
@@ -16,3 +16,5 @@ sudo apt install nom_du_package
   * rxvt
   * fish
   * zsh
+
+![Screenshot](screenshot.png)
