@@ -1,5 +1,5 @@
-rofi.modi:                          ssh,window,drun,run
-rofi.sidebar-mode:                  true
+rofi.modi:                          drun,run
+!rofi.sidebar-mode:                  true
 rofi.terminal:                      gnome-terminal
 rofi.ssh-client:                    ssh
 rofi.ssh-command:                   {terminal} -e "{ssh-client} {host}"

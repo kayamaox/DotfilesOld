@@ -2,23 +2,27 @@
 !          Snazzy 
 !===========================
 URxvt*saveline:         15000
-URxvt*termName:         rxvt-256color
+URxvt*termName:        	rxvt-256color
+URxvt*font:             xft:DejaVu Sans Mono:regular:size=12
+URxvt*boldFont:		    xft:DejaVu Sans Mono:bold:size=12
+!URxvt*letterSpace:      -4
 URxvt*iso14755:         false
 URxvt*depth:            32
+URxvt*utf8:		        true
 URxvt*cursorColor2:     Magenta
 URxvt*scrollBar:        false
 URxvt*scrollBar_right:  false
-URxvt*internalBorder:   0
 URxvt*externalBorder:   0
-URxvt.geometry: 		92x16
-URxvt.internalBorder:	16
+URxvt.geometry: 	    80x40
+URxvt.internalBorder:	20
 
 URxvt*background:   #1e1f28
 URxvt*foreground:   #ebece6
 URxvt*cursorColor:   #e4e4e4
 URxvt*color0:   #000
 URxvt*color1:   #fb4245
-URxvt*color2:   #50fa7b
+!URxvt*color2:   #50fa7b
+URxvt*color2:   #40EB26
 URxvt*color3:   #f0fa8b
 URxvt*color4:   #49b9fe
 URxvt*color5:   #fb4cb3
@@ -26,7 +30,7 @@ URxvt*color6:   #8be9fd
 URxvt*color7:   #ededec
 URxvt*color8:   #555555
 URxvt*color9:   #fb4245
-URxvt*color10:   #50fa7b
+URxvt*color10:   #40EB26
 URxvt*color11:   #f0fa8b
 URxvt*color12:   #49b9fe
 URxvt*color13:   #fb4cb3
@@ -44,15 +48,37 @@ URxvt*color15:   #ededec
 *.underline:        #ddd
 *.primary:          #ffb52a
 *.secondary:        #e60053
+*.disconnected:     #888
 *.alert:            #bd2c40
 *.accent:           #81a1c1
+*.power:            #cb4b16
+*.active:           #FFFF00
+
+
+
+!*.background:       #aa282828
+!*.background-alt:   #44282828
+!*.foreground:       #f5f8f6
+!*.foreground-alt:   #88f5f8f6
+!*.underline:        #ddd
+!*.primary:          #ffb52a
+!*.secondary:        #e60053
+!*.disconnected:     #888
+!*.alert:            #bd2c40
+!*.red:              #cb6077
+!*.accent:           #81a1c1
+!*.power:            #cb4b16
+!*.active:           #FFFF00
+
+
+
 
 ! =================
 !       Xft
 ! =================
 Xft.dpi:          	    96
 Xft.antialias:     	    true
-Xft.rgba:			    subpixel
+Xft.rgba:		        subpixel
 Xft.hinting:       	    true
 Xft.hintstyle:		    hintslight
 ! Xft.lcdfilter:	    lcddefault
