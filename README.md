@@ -12,8 +12,7 @@ sudo apt install nom_du_package
   * polybar
   * rofi
   * compton
-  * termite
-  * rxvt
+  * rxvt-unicode-color256
   * fish
   * zsh
 
