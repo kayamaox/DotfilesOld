@@ -1,5 +1,5 @@
 rofi.modi:                          drun,run
-!rofi.sidebar-mode:                  true
+!rofi.sidebar-mode:                 true
 rofi.terminal:                      gnome-terminal
 rofi.ssh-client:                    ssh
 rofi.ssh-command:                   {terminal} -e "{ssh-client} {host}"
@@ -7,7 +7,7 @@ rofi.width:                         100
 rofi.fullscreen:                    true
 rofi.lines:                         8
 rofi.columns:                       1
-rofi.font:                          DejaVu Sans Mono 14
+rofi.font:                          "SFNS Display" medium 16
 rofi.color-enabled:                 true
 
 
@@ -21,7 +21,7 @@ rofi.color-urgent:  argb:02000000,  #D8DEE9,        argb:02000000,  argb:0200000
 
 rofi.show-icons:                     true
 rofi.eh:                             1
-rofi.bw:                             8
+!rofi.bw:                             8
 rofi.location:                       0
 rofi.line-margin:                    20
 rofi.padding:                        200
